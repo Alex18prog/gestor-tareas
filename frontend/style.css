@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#task-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#task-form button {
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#task-form button:hover {
+  background: #0056b3;
+}
+
+#tasks li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background: #f9f9f9;
+}
+
+#tasks button {
+  background: #dc3545;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#tasks button:hover {
+  background: #a71d2a;
+}
